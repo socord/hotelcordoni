@@ -1,0 +1,158 @@
+  p{
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  a{
+    color:#a0543b;
+    font-weight: 700;
+    text-decoration: none;
+    
+  }
+  
+  /* unvisited link */
+  a:link {
+    color: #8890c8;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #8a998a;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0a0a0a;
+  }
+  
+  ul.li.a{
+    line-height: 2;
+    padding-left: 0;
+  }
+  
+  section{
+    width: auto;
+    margin: 0 auto;
+  }
+
+ 
+  button{
+    background: #41f341;
+    border: 1px solid transparent;
+    padding: 2px 20px;
+    border-radius: 3px ;  
+  }
+  
+
+  /*ALTERAÇÕES USANDO FE2*/
+  body{
+    font-family: Open-sans, sans-serif; 
+    background-color: #f5cc94;
+    color:#831515;
+    margin: 10px 30px 30px 30px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  .logo-escrito{
+    margin:auto;
+    display: block;
+    box-shadow: 0px 7px 9px #0a0a0a;
+  }
+
+  .menuPrincipal{
+    font-size: 50px;
+    color: #f5cc94;
+    font-weight: bold;
+    background: #be3119;
+    height: 40px;
+    
+    margin: auto;
+    box-shadow: 0px 7px 9px #0a0a0a;
+  }
+
+  section p{
+    text-align: left;
+  }
+  
+  .apresentacaoInicial p{
+    text-align: justify;
+    
+  }
+
+  .apresentacaoInicial img{
+    border: 10px solid #be3119;
+    margin-left: 0px;
+  }
+
+  .cards{
+    display:inline-block;
+    margin: 10px;
+    border: 10px solid #be3119;
+    vertical-align: top;
+    max-height: 100%;
+  }
+  .cards details summary{
+    font-size: 24px;
+    font-weight: bold;  
+  } 
+
+  .cards details{
+    width: 300px;
+    height: 300px;
+    height: auto;
+  }
+
+  .cards img{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    padding: 10px;
+  }
+  .cards p{
+    font-size: 16px;
+    text-align: justify;
+    padding: 10px;
+  }
+
+  .cards ul{
+    font-size: 12px;
+    list-style-type: circle;
+    text-align: left;
+  }
+
+  h3{
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  @media (max-width: 768px){ 
+    
+    .apresentacaoInicial img{
+      width: 80%;
+    }
+
+    .cards img{
+      width: 80%;
+    }
+
+    .cards details{
+      width: 80%;
+      height: auto;
+    }
+
+    .logo-escrito{
+      width: 100%;
+    }
+
+    .menuPrincipal{
+      max-width: 100%;
+    }
+
+
+  }
